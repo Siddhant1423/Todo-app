@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Straw Milky';
+    src: url('./fonts/Straw-Milky.eot');
+    src: url('./fonts/Straw-Milky.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Straw-Milky.woff2') format('woff2'),
+         url('./fonts/Straw-Milky.woff') format('woff'),
+         url('./fonts/Straw-Milky.svg#Straw Milky') format('svg');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Straw Milky';
+}
+header{
+    background-color: black;
+    padding: 36px;
+}
+header h1{
+    color: #e0ff33;
+}
+body{
+    background-color: gray;
+}
+#sidebar{
+    height: 100%;
+    width: 420px;
+    background-color: #e0ff33;
+    position: fixed;
+}
+h2{
+    padding: 18px 36px;
+}
+#addProjectBtn{
+    background-color: #e0ff33;
+    padding: 8px 16px;
+    margin: 0px 8px;
+    border-radius: 36px;
+    border: 4px solid black;
+    transition: 0.5s;
+}
+#addProjectBtn:hover{
+    background-color: black;
+    color: #e0ff33;
+}
+input{
+    padding: 8px 16px;
+    margin-left: 36px;
+    background-color: #e0ff33;
+    border-radius: 36px;
+    border: 4px solid black;
+    outline: none;
+}
+hr{
+    margin: 30px;
+    border: 2px solid black;
+}
+ul{
+    list-style: none;
+    padding-inline: 36px;
+}
+li{
+    border: 4px solid black;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 36px;
+}
