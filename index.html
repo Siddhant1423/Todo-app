@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <h1>My Todo List App</h1>
+    </header>
+    <div class="grid-container">
+
+        <div id="sidebar">
+            <h2>Projects</h2>
+            <form id="project-form">
+
+                <input type="text" placeholder="Project Name" id="project-name">
+                <button type="submit">Add</button>
+            </form>
+            <hr>
+            <div id="project-list">
+                
+            </div>
+        </div>
+        <div class="main-content">
+            <h1 id="current-project-name">Default Project</h1>
+            <form id="todo-form">
+                <input type="text" placeholder="Title" id="todo-title">
+                <textarea placeholder="Description" id="desc"></textarea>
+                <input type="date" id="dueDate">
+                <select id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <button type="submit" id="todo-submit"> Add ToDo Task</button>
+            </form>
+            <h1 id="task-heading">Tasks</h1>
+            <div id="todo-list">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
